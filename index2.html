@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cursoemvideo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="img">
+        <img
+          fetchpriority="high"
+          decoding="async"
+          class="pp-photo-img wp-image-24931 size-full img_card"
+          src="https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png"
+          alt="cursoemvideo-logo"
+          itemprop="image"
+          srcset="
+            https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png         500w,
+            https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo-300x91.png  300w,
+            https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo-400x121.png 400w
+          "
+          sizes="(max-width: 500px) 100vw, 500px"
+          title="cursoemvideo-logo"
+        />
+      </div>
+      <div class="cadastro">
+        <h1 class="titulo">Entrar</h1>
+
+        <form
+          action="https://www.cursoemvideo.com/minha-conta/"
+          method="get"
+          class="forma"
+        >
+          <label for="email" class="email">Email</label>
+          <input
+            type="text"
+            name="Email"
+            id="email"
+            placeholder="Email"
+            required
+            class="email2"
+          />
+
+          <label for="senha" class="senha">Senha</label>
+          <input
+            type="password"
+            name="Senha"
+            id="senha"
+            placeholder="Senha"
+            required
+            class="senha2"
+          />
+
+          <fieldset>
+            <label for="lembrete" class="lembrete">Lembrar-me</label>
+            <input type="radio" name="Lembrar-me" id="lembrete" />
+          </fieldset>
+
+          <button type="submit" class="botao">Entrar</button>
+        </form>
+      </div>
+
+      <div class="outro">
+        <span class="cadastro"><a href="#">Cadastro</a></span>
+        <span class="esquecer"><a href="#">Esqueceu a senha?</a></span>
+      </div>
+    </div>
+  </body>
+</html>
