@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 370px auto;
+}
+
+.cabecalho {
+  background-color: #180e0c;
+  display: flex;
+  flex-direction: column;
+  border: 1pt solid #707070;
+}
+
+.corpo_pagina {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1pt solid #707070;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.sec1 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sec2 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+article {
+  display: flex;
+}
+
+.artigo1 {
+  display: block;
+}
+
+.artigo2{
+    display: block;
+}
+
+.artigo3 {
+    display: block;
+}
+
+.artigo4 {
+    display: block;
+}
+
+header h1 {
+  font-size: 20pt;
+  text-align: left;
+  font-weight: 400;
+  display: flex;
+  color: #ffffff;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.material-symbols-outlined {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50%;
+}
+
+.link_icone {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link_icone:hover{
+  opacity: 0.6;
+}
+.img_artigo {
+  width: 146px;
+  height: 125px;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+article p {
+  font-size: 10pt;
+  text-align: left;
+  color: #000000;
+  
+}
+
+article h2 {
+  font-size: 13pt;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+aside {
+  background-color: #37201a;
+}
+
+

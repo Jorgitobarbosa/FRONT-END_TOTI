@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(105, 105, 230);
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-bottom: 50px;
+  margin: 20px auto;
+  width: 30%;
+  font-family: Asap, sans-serif;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 70px;
+  align-self: flex-start;
+}
+
+.titulo {
+  margin: 30px auto;
+  text-align: start;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+}
+
+.email,
+.senha {
+  font-size: small;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.email2,
+.senha2 {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #e8eff9;
+  border: 1px solid transparent;
+}
+.botao {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(109, 0, 210);
+  color: white;
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+
+.botao:hover {
+  background-color: rgb(92, 92, 205);
+}
+
+.cadastro {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 414px) {
+  .card {
+    width: 90%;
+  }
+}
